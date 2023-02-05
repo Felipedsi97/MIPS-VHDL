@@ -10,6 +10,7 @@ CPUs MIPS. No entanto, não utiliza o mesmo instruction set (IS reduzido). **O p
 - A memória de dados tem 1kWord alocados a partir de 5500h;
 - A cada Reset, o Program Counter sempre aponta para o endereço 0 da memória de programa;
 - Sem instruções de Branch/Jump;
-
+- Dois códigos, sem e com bolhas para evitar pipeline hazards.
+- Memória implementada de forma a utilizar a BRAM da FPGA.
 
 ![](/project_description.png)
